@@ -69,6 +69,11 @@ body {
   background: #212630;
   color: #fff; }
 
+.splitter-container {
+  padding: 50px 0 50px;
+  background: #fffcfc;
+  text-align: center; }
+
 .home-title {
   font-size: 40px;
   font-weight: 700;
@@ -131,5 +136,66 @@ body {
 .b-video-img {
   width: 100%;
   padding: 30px 0 40px; }
+
+.img-item {
+  display: inline-block;
+  margin: 0 30px 40px;
+  vertical-align: middle; }
+
+.img-list {
+  margin: 0 -20px -40px;
+  padding: 0; }
+
+.btn {
+  display: inline-block;
+  font-weight: normal;
+  line-height: 1.25;
+  text-align: center;
+  font-size: 1rem;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  transition: all, 0.2s, ease-in-out;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 10px; }
+
+.buy-btn-lg {
+  padding: 12px 35px;
+  font-size: 1.25rem;
+  border-radius: 30px;
+  width: 100%; }
+
+.buy-btn-md {
+  padding: 18px 50px;
+  font-size: 1rem;
+  border-radius: 30px; }
+
+.btn-dark {
+  color: #f6f5f5;
+  background: #7a88a3;
+  border-color: #212630; }
+  .btn-dark:hover {
+    color: #f6f5f5;
+    background: #5f6e8b;
+    border-color: #0c0e12; }
+
+.btn-primary {
+  color: #f6f5f5;
+  background: #cd483d;
+  border-color: #cd483d; }
+  .btn-primary:hover {
+    color: #f6f5f5;
+    background: #ab362c;
+    border-color: #ab362c; }
+
+.btn-third {
+  color: #f6f5f5;
+  background: #cd483c;
+  border-color: #cd483c; }
+  .btn-third:hover {
+    color: #f6f5f5;
+    background: #aa362c;
+    border-color: #aa362c; }
 
 /*# sourceMappingURL=app.css.map */
